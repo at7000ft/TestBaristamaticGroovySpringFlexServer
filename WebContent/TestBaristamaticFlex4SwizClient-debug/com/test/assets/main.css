@@ -1,0 +1,75 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+global { font-family: Verdana; 
+	font-size: 10; 
+	font-weight: bold;
+	chrome-color: #7F7364; 
+	selection-color: #BFB59F; 
+	roll-over-color: #E5DFC3; 
+	focus-color: #7F7364; 
+	} 
+
+
+mx|Alert {
+	background-color: #BFB59F;
+	color: #333333;
+}
+
+mx|FormItem {
+	font-size: 12;
+}
+
+s|Label { 
+	   font-weight: bold;
+      font-size: 16;
+      color: #eeeeee;
+}
+
+s|Button  { 
+	chrome-color: #BCAE87;
+	cornerRadius: 6; 
+	color: #000000;
+	padding: 5;
+}
+
+/* Define the button disabled state colors */
+s|Button:disabled  { 
+	color: #000000;
+}
+
+.myPanelStyle {
+	font-size: 12;
+	color: #FFFFFF;
+}
+
+.panelText {
+	color: #000000;
+	 font-weight: none;
+	 text-align: left;
+}
+
+s|DataGrid { alternating-item-colors:#F8F8F4,#FFFFFF; header-style-name:titles; } 
+
+s|DataGrid s|GridColumnHeaderGroup {
+	font-size: 16;	
+}
+
+/* Style for the DataGrid titles */
+.titles{ color:#FFFFFF; font-weight:bold; }
+
+.logo {
+  font-family:"Times New Roman", "_serif";
+  font-weight:bold;
+  font-style:italic;
+  font-size:20;
+  color: #fff;
+}
+.restockBtn
+{
+	chromeColor: #BCAE87;
+	fontSize: 12;
+}
+
+ 
